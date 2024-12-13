@@ -1,0 +1,121 @@
+body {
+    background: linear-gradient(45deg, rgb(238, 182, 129) , rgb(196, 210, 211), rgb(238, 182, 129));
+    min-height: 100vh; /* Ensure body takes up at least full viewport height */
+    background-size: cover; /* Ensure the gradient covers the entire screen */
+    background-attachment: fixed; /* Keep background fixed when scrolling */
+}
+#recipe-container {
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    background:rgb(173, 124, 78);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px; /* Adjust the height of the image */
+    object-fit: cover; /* Ensure the image fills the space without distortion */
+}
+
+.card-body {
+    height: 140px; /* Adjust the height of the card body */
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 16px; /* Adjust title size */
+    color: white;
+}
+
+.card-text {
+    font-size: 12px; /* Adjust text size */
+    color: white;
+}
+
+.btn-primary {
+    font-size: 14px; /* Adjust button text size */
+    color: black;
+    background: rgb(196, 210, 211);
+    border: #93754a;
+}
+
+.formcontainer {
+    border-radius: 80px;
+    box-shadow: 0px 40px 80px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 500px;
+    max-width: 600px;
+    height: 480px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 400px;
+    border: black;
+
+}
+
+/* Form header */
+/* h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form input fields */
+/* .form-control {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+} */ */
+
+/* Submit button
+.btn {
+    width: 100%;
+    border-radius: 4px;
+    padding: 12px;
+} */
+
+/* Add hover effect for button */
+.btn-primary {
+    background-color: #4e73df;
+    border-color: #4e73df;
+}
+
+.btn-primary:hover {
+    background-color: #3b3116;
+}
+
+
+/* General footer styling */
+.footer {
+    background: linear-gradient(45deg, rgb(238, 182, 129) , rgb(196, 210, 211), rgb(238, 182, 129));
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 10px;
+}
+
+/* Footer text styling */
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: black;
+}
+
+/* Footer links styling */
+.footer-link {
+    color: black;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
